@@ -1,2 +1,2 @@
 "Story","Title","Result","Date","Stability","Duration (s)"
-"Search by keyword","Searching for a term","SUCCESS","2023-01-03T06:10:16.299215343Z[Etc/UTC]","0.0","20.01"
+"login","john logs in with valid credentials","SUCCESS","2023-01-03T08:41:02.551069933Z[Etc/UTC]","0.0","7.48"

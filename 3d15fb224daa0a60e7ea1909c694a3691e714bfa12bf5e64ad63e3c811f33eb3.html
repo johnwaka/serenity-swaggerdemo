@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="UTF-8"/>
-    <title>Features</title>
+    <title>Capabilities</title>
 <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
 <link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.png">
 <link rel="apple-touch-icon" sizes="60x60" href="apple-icon-60x60.png">
@@ -147,7 +147,7 @@
             $("#requirements-tabs").tabs();
             $("#test-tabs").tabs();
 
-            var requirementsTree = [{"text":"Search by keyword","type":"feature","href":"7340372ade9e992b546bdad4be8cf6f2b2d5ff2a581167d17ccc18c60e3f95b2.html","nodes":[],"selectable":false,"tags":["\u003ca href\u003d\u0027##beforetable\u0027\u003e\u003ci class\u003d\u0027bi bi-check-circle-fill success-icon \u0027 title\u003d\u0027SUCCESS\u0027\u003e\u003c/i\u003e\u003c/a\u003e","\u003cspan class\u003d\u0027feature-count\u0027\u003e1 scenario\u003c/span\u003e"]}];
+            var requirementsTree = [{"text":"Authentication","type":"capability","href":"3d15fb224daa0a60e7ea1909c694a3691e714bfa12bf5e64ad63e3c811f33eb3.html","nodes":[{"text":"login","type":"feature","href":"215fff75c70ecad26af265ab43918cef847f37b52d28cb24eb29bfbb4a20875e.html","nodes":[],"selectable":false,"tags":["\u003ca href\u003d\u0027##beforetable\u0027\u003e\u003ci class\u003d\u0027bi bi-check-circle-fill success-icon \u0027 title\u003d\u0027SUCCESS\u0027\u003e\u003c/i\u003e\u003c/a\u003e","\u003cspan class\u003d\u0027feature-count\u0027\u003e1 scenario\u003c/span\u003e"]}],"selectable":false,"tags":["\u003ca href\u003d\u0027##beforetable\u0027\u003e\u003ci class\u003d\u0027bi bi-check-circle-fill success-icon \u0027 title\u003d\u0027SUCCESS\u0027\u003e\u003c/i\u003e\u003c/a\u003e","\u003cspan class\u003d\u0027feature-count\u0027\u003e1 feature\u003c/span\u003e"]}];
 
             $('#tree').treeview({
                 data: requirementsTree,
@@ -194,10 +194,9 @@
             <span class="breadcrumbs">
             <a href='index.html'>Home</a> > <a href="capabilities.html">Requirements</a>
 
-                > <a href="feba01ff5ef2d3cd0cc0011b0c2554af120fd05d3edae5b73b41093ad1f1ebb9.html">Search</a>
 
 
-                    > <span class="truncate-40">Search By Keyword</span>
+                    > <span class="truncate-40">Authentication</span>
 
             </span>
         </div>
@@ -215,14 +214,14 @@
         <li >
             <a href="capabilities.html"><i class="bi bi-journal-text"></i> Requirements</a>
         </li>
-        <li >
-            <a href="7ea0a5e2d679b9deeda9910ae4a9bcd3a281e0d908303a9e16e486103e98880c.html"><i class="bi bi-chat-text"></i> Capabilities</a>
-        </li>
         <li class="active">
-            <a href="#"><i class="bi bi-chat-text"></i> Features</a>
+            <a href="#"><i class="bi bi-chat-text"></i> Capabilities</a>
+        </li>
+        <li >
+            <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="bi bi-chat-text"></i> Features</a>
         </li>
     </ul>
-    <span class="date-and-time"><a href="build-info.html"><i class="bi bi-info-circle"></i></a> Report generated 03-01-2023 06:10</span>
+    <span class="date-and-time"><a href="build-info.html"><i class="bi bi-info-circle"></i></a> Report generated 03-01-2023 08:41</span>
     <br style="clear:left"/>
 </div>
 
@@ -239,7 +238,7 @@
 
                                     <div class="col-sm-12">
                                         <span>
-                                            <h2><i class="bi bi-book"></i> Feature: Search By Keyword</h2>
+                                            <h2><i class="bi bi-book"></i> Capability: Authentication</h2>
                                         </span>
                                     </div>
                                 </div>
@@ -282,84 +281,10 @@
 
                                             </div>
                                             <div class="col-sm-8">
-                                                <!--- TOC --->
-                                                <div id="toc">
-                                                    <h3>Overview</h3>
-                                                    <table class="table" id="toc-table">
-                                                                    <tr>
-                                                                        <td style="width:95%;" class="toc-title">
-                                                                            <span class="orphan-scenario-toc-entry">
-                                                                                    <a href="#d0f15194dbe6ce8bfedd1dd94046026e8255f691bc5d74b15aed36bbc2e59dfb"
-                                                                                       title="View scenario details">
-                                                                                        <i class="bi bi-chat-dots"></i> Scenario: Searching for a term
-                                                                                    </a>
-                                                                                </span>
-                                                                        </td>
-                                                                        <td>
+                                                <h3>Requirements Overview</h3>
 
-                                                                        </td>
-                                                                        <td style="width:5%;">
-                                                                            <table>
-                                                                                <tr>
-                                                                                    <td class="icons-bar">
-                                                                                        <a style="margin-left:0.5em;padding-right: 1.5em;"
-                                                                                           href="35cfed838fce6a34547d061ef095dd6837e5024c11ea9a63e7b6112cef6d263f.html"
-                                                                                           title="View test results">
-                                                                                            <a href='##beforetable'><i class='bi bi-check-circle-fill success-icon ' title='SUCCESS'></i></a>
-                                                                                            </a>
+                                                <div id="tree"></div>
 
-
-                                                                                            <a style="margin-left:0.5em;padding-right: 1.5em;"
-                                                                                               href="35cfed838fce6a34547d061ef095dd6837e5024c11ea9a63e7b6112cef6d263f.html"
-                                                                                               title="View test results">
-                                                                                                <i class="bi bi-eyeglasses"></i>
-                                                                                            </a>
-                                                                                    </td>
-                                                                                </tr>
-                                                                            </table>
-                                                                        </td>
-                                                                    </tr>
-                                                    </table>
-                                                </div>
-                                                <!--- END OF TOC --->
-                                            </div>
-                                        </div>
-                                        <div class="row">
-                                            <div class="col-sm-12">
-                                                    <h3>Scenarios</h3>
-
-                                                        <a name="79d2a80a-9907-4c74-b31e-78c802812ee4"></a>
-                                                        <p class="rule-tags inline-tag">
-                                                        </p>
-
-
-                                                            <div class="scenario-docs card" id="d0f15194dbe6ce8bfedd1dd94046026e8255f691bc5d74b15aed36bbc2e59dfb">
-                                                                <div class="scenario-docs card-header success" style="min-height:1.5em;">
-                                                                    <div>
-                                                                        <span class="scenario-heading">
-                                                                            <a href="35cfed838fce6a34547d061ef095dd6837e5024c11ea9a63e7b6112cef6d263f.html"
-                                                                               title="View test results">Scenario: Searching for a term</a>
-                                                                        </span>
-
-                                                                        <span class="example-tags inline-tag">
-                                                                        </span>
-
-                                                                        <span class="scenario-result-icon">
-                                                                    
-
-                                                                                <a href='##beforetable'><i class='bi bi-check-circle-fill success-icon ' title='SUCCESS'></i></a>
-                                                                        </span>
-                                                                    </div>
-
-                                                                </div>
-                                                                <div class="scenario-docs card-body">
-                                                                        <p>Given Sergey is researching things on the internet</p>
-                                                                        <p>When he looks up &quot;Cucumber&quot;</p>
-                                                                        <p>Then he should see information about &quot;Cucumber&quot;</p>
-                                                                    <div class="examples">
-                                                                    </div>
-                                                                </div>
-                                                            </div>
                                             </div>
                                         </div>
                                     </div>
@@ -402,6 +327,7 @@
                                                            id="scenario-results">
                                                         <thead>
                                                         <tr>
+                                                                <th>feature</th>
                                                             <th class="test-name-column">Scenario</th>
                                                             <th>Steps</th>
                                                             <th>Started</th>
@@ -412,12 +338,12 @@
                                                         <tbody>
                                                                 <tr class="scenario-result SUCCESS">
                                                                     <td>
-                                                                            <a href="c620621f4ffffe86384becca378697be976cd29eb61319d4311f6d505261b4f5.html">Search by keyword</a>
+                                                                            <a href="215fff75c70ecad26af265ab43918cef847f37b52d28cb24eb29bfbb4a20875e.html">login</a>
                                                                     </td>
-                                                                    <td><a href="35cfed838fce6a34547d061ef095dd6837e5024c11ea9a63e7b6112cef6d263f.html">Searching for a term</a></td>
+                                                                    <td><a href="49d3055f443e0f437a5ad938553a1a87f87bfd182903e9f4e3debac5c783ce39.html">john logs in with valid credentials</a></td>
                                                                     <td>3</td>
-                                                                    <td>06:10:16</td>
-                                                                    <td>20s 008ms</td>
+                                                                    <td>08:41:02</td>
+                                                                    <td>7s 484ms</td>
                                                                     <td><a href='##beforetable'><i class='bi bi-check-circle-fill success-icon ' title='SUCCESS'></i></a> <span style="display:none">SUCCESS</span>
                                                                     </td>
                                                                 </tr>
@@ -462,14 +388,14 @@
 
         // Options define for display value on top of bars
         const outcomeDetailsReports = [
-            { title: 'Passing Test Cases', link: "99bebd63aea496d9808fe3f58ad6b70cf9a5c2e2561f85e336828d999e143881.html" },
-            { title: 'Pending Test Cases', link: "3360f1d5745bce94cf4206ae89e3e173fa09aaba8e2335ef4131a6e24383280d.html" },
-            { title: 'Ignored Test Cases', link: "5872fa53634963b4249f6538a60c829040484077bed44aef8ede703a8027ac8b.html" },
-            { title: 'Skipped Test Cases', link: "4206910c2e0bc40ee5299d734196f2470ca42390d2f38a87ce2ea5c00882777e.html" },
-            { title: 'Aborted Test Cases',  link: "1b701981c22cc715500f68f40559d34154f9c64fbd52967cb4dc7c695eb68a0e.html"},
-            { title: 'Failed Test Cases', link: "3542a7a0f0f214252618d8aaef40883a0d4a5e3af10cdd137f792840e7d0b208.html"  },
-            { title: 'Broken Test Cases', link: "5fb9d23045b34ee73aa15911194ea63fe30d68a7af90f36aa6c3a248d68b0a0f.html"    },
-            { title: 'Compromised Test Cases',  link: "6363763f90dd68f3dd2f645597ad8ffa08bdca2de1b0218977accb55b07e11fe.html" },
+            { title: 'Passing Test Cases', link: "32629af8f8a11382b4af3bb47bead36f843bed6567ced71ff663ba52f9324e64.html" },
+            { title: 'Pending Test Cases', link: "4871ca9b8a8319f9bcd4a06ccbb1a811be1d4d8a47ab5189f438edefa660a60c.html" },
+            { title: 'Ignored Test Cases', link: "db0e0b9f3f4760612ab54df2f9406f9b357fb84cd38ea7a42aae4cb82d2ec217.html" },
+            { title: 'Skipped Test Cases', link: "56b7b05a3d525a394dfa2d8a1cb8636e5cc89c715ae4a81fb4b5c8e168f7bcea.html" },
+            { title: 'Aborted Test Cases',  link: "9c627398a2899e52d57293fdf6d384a5134d7fa9e086420f9f5325f2ff6cd3b8.html"},
+            { title: 'Failed Test Cases', link: "49f56c4070112033639a31f5e9719205bcc16274d4b1df2882dc9a1d6b6fd8ab.html"  },
+            { title: 'Broken Test Cases', link: "edce5b69767c5d5031e0d7526eabd7ced216652eadb96aae1a4ec4bcbfe26e87.html"    },
+            { title: 'Compromised Test Cases',  link: "d9d047c081d5180d51135a4074fa104fde641850c7e06441fecf7f418c3ceb85.html" },
         ]
         const outcomeData = {
             labels: ['Passing Test Cases', 'Pending Test Cases', 'Ignored Test Cases', 'Skipped Test Cases', 'Aborted Test Cases', 'Failed Test Cases', 'Broken Test Cases', 'Compromised Test Cases','Undefined Test Cases'],
@@ -556,14 +482,14 @@
 
         // Options define for display value on top of bars
         const requirementsOutcomeDetailsReports = [
-            { title: 'Passing Test Cases', link: "99bebd63aea496d9808fe3f58ad6b70cf9a5c2e2561f85e336828d999e143881.html" },
-            { title: 'Pending Test Cases', link: "3360f1d5745bce94cf4206ae89e3e173fa09aaba8e2335ef4131a6e24383280d.html" },
-            { title: 'Ignored Test Cases', link: "5872fa53634963b4249f6538a60c829040484077bed44aef8ede703a8027ac8b.html" },
-            { title: 'Skipped Test Cases', link: "4206910c2e0bc40ee5299d734196f2470ca42390d2f38a87ce2ea5c00882777e.html" },
-            { title: 'Aborted Test Cases',  link: "1b701981c22cc715500f68f40559d34154f9c64fbd52967cb4dc7c695eb68a0e.html"},
-            { title: 'Failed Test Cases', link: "3542a7a0f0f214252618d8aaef40883a0d4a5e3af10cdd137f792840e7d0b208.html"  },
-            { title: 'Broken Test Cases', link: "5fb9d23045b34ee73aa15911194ea63fe30d68a7af90f36aa6c3a248d68b0a0f.html"    },
-            { title: 'Compromised Test Cases',  link: "6363763f90dd68f3dd2f645597ad8ffa08bdca2de1b0218977accb55b07e11fe.html" },
+            { title: 'Passing Test Cases', link: "32629af8f8a11382b4af3bb47bead36f843bed6567ced71ff663ba52f9324e64.html" },
+            { title: 'Pending Test Cases', link: "4871ca9b8a8319f9bcd4a06ccbb1a811be1d4d8a47ab5189f438edefa660a60c.html" },
+            { title: 'Ignored Test Cases', link: "db0e0b9f3f4760612ab54df2f9406f9b357fb84cd38ea7a42aae4cb82d2ec217.html" },
+            { title: 'Skipped Test Cases', link: "56b7b05a3d525a394dfa2d8a1cb8636e5cc89c715ae4a81fb4b5c8e168f7bcea.html" },
+            { title: 'Aborted Test Cases',  link: "9c627398a2899e52d57293fdf6d384a5134d7fa9e086420f9f5325f2ff6cd3b8.html"},
+            { title: 'Failed Test Cases', link: "49f56c4070112033639a31f5e9719205bcc16274d4b1df2882dc9a1d6b6fd8ab.html"  },
+            { title: 'Broken Test Cases', link: "edce5b69767c5d5031e0d7526eabd7ced216652eadb96aae1a4ec4bcbfe26e87.html"    },
+            { title: 'Compromised Test Cases',  link: "d9d047c081d5180d51135a4074fa104fde641850c7e06441fecf7f418c3ceb85.html" },
             { title: 'Undefined Test Cases',  link: "" },
         ]
         const requirementsOutcomeData = {
@@ -653,14 +579,14 @@
         // Options define for display value on top of bars
 
         const severityDetailsReports = [
-            { title: 'Passing Scenarios', link: "99bebd63aea496d9808fe3f58ad6b70cf9a5c2e2561f85e336828d999e143881.html" },
-            { title: 'Pending Scenarios', link: "3360f1d5745bce94cf4206ae89e3e173fa09aaba8e2335ef4131a6e24383280d.html" },
-            { title: 'Ignored Scenarios', link: "5872fa53634963b4249f6538a60c829040484077bed44aef8ede703a8027ac8b.html" },
-            { title: 'Skipped Scenarios', link: "4206910c2e0bc40ee5299d734196f2470ca42390d2f38a87ce2ea5c00882777e.html" },
-            { title: 'Aborted Scenarios',  link: "1b701981c22cc715500f68f40559d34154f9c64fbd52967cb4dc7c695eb68a0e.html"},
-            { title: 'Failed Scenarios', link: "3542a7a0f0f214252618d8aaef40883a0d4a5e3af10cdd137f792840e7d0b208.html"  },
-            { title: 'Broken Scenarios', link: "5fb9d23045b34ee73aa15911194ea63fe30d68a7af90f36aa6c3a248d68b0a0f.html"    },
-            { title: 'Compromised Scenarios',  link: "6363763f90dd68f3dd2f645597ad8ffa08bdca2de1b0218977accb55b07e11fe.html" },
+            { title: 'Passing Scenarios', link: "32629af8f8a11382b4af3bb47bead36f843bed6567ced71ff663ba52f9324e64.html" },
+            { title: 'Pending Scenarios', link: "4871ca9b8a8319f9bcd4a06ccbb1a811be1d4d8a47ab5189f438edefa660a60c.html" },
+            { title: 'Ignored Scenarios', link: "db0e0b9f3f4760612ab54df2f9406f9b357fb84cd38ea7a42aae4cb82d2ec217.html" },
+            { title: 'Skipped Scenarios', link: "56b7b05a3d525a394dfa2d8a1cb8636e5cc89c715ae4a81fb4b5c8e168f7bcea.html" },
+            { title: 'Aborted Scenarios',  link: "9c627398a2899e52d57293fdf6d384a5134d7fa9e086420f9f5325f2ff6cd3b8.html"},
+            { title: 'Failed Scenarios', link: "49f56c4070112033639a31f5e9719205bcc16274d4b1df2882dc9a1d6b6fd8ab.html"  },
+            { title: 'Broken Scenarios', link: "edce5b69767c5d5031e0d7526eabd7ced216652eadb96aae1a4ec4bcbfe26e87.html"    },
+            { title: 'Compromised Scenarios',  link: "d9d047c081d5180d51135a4074fa104fde641850c7e06441fecf7f418c3ceb85.html" },
         ]
         const severityData = {
             labels: ['Passing', 'Pending', 'Ignored', 'Skipped', 'Aborted', 'Failed', 'Broken', 'Compromised'],
@@ -731,14 +657,14 @@
 
         // Options define for display value on top of bars
         const durationDetailsReports = [
-                {title: "Under 1 second", link: "e134444bfa25bba92378dd21665b0cff9b37ed98539875f2fa0054bf73298b4a.html"},
-                {title: "1 to 10 seconds", link: "500d523e6c00e1eb1ff390ec3852d0a3acbe31fc6fa4f47162e941035ca50698.html"},
-                {title: "10 to 30 seconds", link: "9cbe7de9b1b0b1528523642290457f90a310cbaeb5c1e8ff41121cc979a39b2b.html"},
-                {title: "30 to 60 seconds", link: "e48d9e0a86d66122adc23421a54bc11e391e3618808d21c1647474f8f82cb44e.html"},
-                {title: "1 to 2 minutes", link: "5ce70fa6d2de686f6f182798c72f59fd9850882073f198a862f4b72e86ad4487.html"},
-                {title: "2 to 5 minutes", link: "62623f49a62e19f0ceda297dd2ad23f541fd329b2633a07930a3c8373882ec50.html"},
-                {title: "5 to 10 minutes", link: "5b84012c164056963b44b6407006803d3542af9a5e48c18e3a6972d01324734f.html"},
-                {title: "10 minutes or over", link: "f6d5bad81c45ca2783ac3c837cad9a94d1394d31e4be192c7b66374203629c91.html"},
+                {title: "Under 1 second", link: "c84e3a597886e64c474f2e777f0895cb3f66d0974961e0df71c68e439c73b8bb.html"},
+                {title: "1 to 10 seconds", link: "4f4d729e24cd21f65356de48d773b808a5ab9ff72a31760572ca6a9f93664a47.html"},
+                {title: "10 to 30 seconds", link: "2f04117f46bd4bc11c1fb9e4fdd9a0b9d5d07dadf2cb6ea27b320199f3562110.html"},
+                {title: "30 to 60 seconds", link: "64f31c3ebac0cc3de0df36898d1ff7f32bc36e44be1ddf5f0c629cfe1eca747f.html"},
+                {title: "1 to 2 minutes", link: "3abe95acdf84d0454c777493ba78002fe83419331602955d1a10090ea7c845b4.html"},
+                {title: "2 to 5 minutes", link: "c06b3f12aea6cd277ab099567686bc150834c76720d74ca773b845f888acddba.html"},
+                {title: "5 to 10 minutes", link: "6700f54cfb55d958fc71c8f02dd79dbe9800eaa744a785114978e5eedee77afb.html"},
+                {title: "10 minutes or over", link: "a8d2a5b245a53b9a43ef88a0307ad0fa2064c83ac1611f6d871b2653c7d67a86.html"},
         ]
         // The Severity bar chart
         const durationChartCtx = document.getElementById('durationChart');
@@ -750,7 +676,7 @@
             datasets: [{
                 label: 'Number of tests per duration',
                 fill: false,
-                data: ['0','0','1','0','0','0','0','0'],
+                data: ['0','1','0','0','0','0','0','0'],
                 backgroundColor: 'rgba(83, 146, 255,0.5)',
                 borderColor: 'rgba(83, 146, 255, 1)',
             }]
