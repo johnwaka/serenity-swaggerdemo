@@ -7,7 +7,7 @@ import net.serenitybdd.screenplay.actions.Enter;
 import net.serenitybdd.screenplay.ui.Button;
 import swaglab.model.swaglabuser;
 
-public class Login {
+public class LoginWithValidCreds {
     public static Performable asA(swaglabuser standarduser) {
         return Task.where("{0} logs in as a:" + standarduser,
                 Enter.theValue(standarduser.username).into("#user-name"),
